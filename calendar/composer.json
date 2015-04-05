@@ -1,0 +1,25 @@
+{
+    "name": "donny5300/calendar",
+    "type": "library",
+    "description": "Laravel 4 Flexible Calendar",
+    "keywords": ["laravel","calendar"],
+    "authors": [
+        {
+            "name": "Donny5300",
+            "email": "wavangrondelle@live.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/views"
+        ],
+        "psr-0": {
+            "Donny5300\\Calendar": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
