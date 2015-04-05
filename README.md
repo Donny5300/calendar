@@ -1,5 +1,7 @@
 ##EasyCalendar
 
+[![Project Status](https://stillmaintained.com/Donny5300/calendar.png)](https://stillmaintained.com/Donny5300/calendar)
+
 Extended documentation comming soon!
 
 Place this line in your controller: use Donny5300\Calendar\Calendar as Cal;
