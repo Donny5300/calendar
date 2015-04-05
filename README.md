@@ -1,4 +1,4 @@
-EasyCalendar
+##EasyCalendar
 
 Extended documentation comming soon!
 
