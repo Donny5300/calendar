@@ -8,7 +8,7 @@ or add it to your config/app.php
 
 use Donny5300\Calendar\Calendar as Cal;
 
-
+```
 $calendar = new Cal;
 
 //Set to show current month name
@@ -45,10 +45,11 @@ $calendar->setPath('test/test2');
 $calendar->events($events);
 
 $cal = $calendar->render();
-
+```
 
 How to render Events Array:
 
+```
 $events = [
             '2015-04-04 10:00:00' => [
                 'title' => 'test 1'
@@ -70,3 +71,4 @@ $events = [
                 'title' => 'test 1'
             ],
         ];
+```
