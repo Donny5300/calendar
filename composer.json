@@ -15,7 +15,9 @@
     },
     "autoload": {
         "classmap": [
-            "src/views"
+            "src/views",
+            "src/config",
+            "src/lang"
         ],
         "psr-0": {
             "Donny5300\\Calendar": "src/"
