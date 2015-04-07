@@ -1,0 +1,4 @@
+
+    {{$event['availability_status']}}
+
+
