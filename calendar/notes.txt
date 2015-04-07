@@ -1,0 +1,26 @@
+For documentation:
+
+$calendar = new Cal;
+        $calendar->loadConfig(['views', 'times', 'input', 'path', 'labels', 'interval', 'today-class','week-select', 'table-class', 'view-mode']); //Array with config types. Second arg is the array key
+        $calendar->loadTranslations();
+//        $calendar->setTodayClass('today-class');
+        $calendar->setMonthName();
+        $calendar->showYear();
+        $calendar->showWeek();
+//        $calendar->setDate('date');
+//        $calendar->dayLabels(null); //Day labels format: key => value
+//        $calendar->startTime(8); //Start time
+//        $calendar->endTime(23); //End time
+//        $calendar->showDate(true); //Show date: day/week/year
+//        $calendar->setInterval(30); //Interval
+//        $calendar->setNextLabel('Volgende'); //NextLabel
+//        $calendar->setPrevLabel('dsfdsfdsf'); //Previous Label
+//        $calendar->setTableClass('table table-responsive'); //TableClass
+//        $calendar->setTableId('test-id'); //Table ID
+//        $calendar->viewType('week');
+//        $calendar->setPath('student/planning/3');
+//        $calendar->setWeekSelect(5, 5, 'testSelect');
+//        $calendar->setWeekSelectLocation('head'); //Head, week-replace
+        $calendar->events($events, 'date'); //Param 1: data. Param 2: optional - convert data to formatted array. Set this to the field you would like
+
+        $cal = $calendar->render();

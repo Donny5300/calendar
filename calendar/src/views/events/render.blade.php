@@ -1,1 +1,4 @@
-{{$event['title']}}
+
+{{$event['availability_status']}}
+
+
